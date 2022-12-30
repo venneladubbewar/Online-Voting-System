@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body{
+   margin:0;
+   background-image:url("https://www.wallpapertip.com/wmimgs/50-508868_indian-flag-image-under-blue-sky-in-1920p.jpg");
+   background-repeat: no-repeat;
+   background-size:cover; 
+   font-family: Helvetica;
+   margin-bottom:30px;  
+}
+
+nav{
+	background-color: #ff8000;
+	font-size: 20px;
+	color:white;
+	display:flex;
+	justify-content:right;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+nav a{
+	color: white;
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+nav a:hover{
+	color:black;	
+}
+
+.form-container{
+	opacity:0.8;
+	background-color:#DFD3C3;
+	font-size:20px;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	margin-left:47%;
+	margin-top:8%;
+    border-radius:20px;
+    padding-bottom:30px;
+}
+
+.form-container input,textarea,select{
+	width:80%;
+	height:40px;
+	margin-top:25px;
+	font-size:25px;
+	background-color:#009EFF;
+	text-align:center;
+	border-radius:20px;	
+}
+
+.form-container button{
+	width:80%;
+	height:50px;
+	margin-top:25px;
+	font-size:25px;
+    background-color:#009EFF;
+    cursor:pointer;
+    border-radius:20px;	
+}
+
+.form-container label{
+	margin-left:30%;
+}
+
+.form-container a{
+	margin-left:30%;
+	margin-top:20px;
+	color:black;
+}
+.form-container a:hover{
+	color: #009EFF;	
+} 
+
+.welcome-form{
+	padding-top:20px;
+	padding-bottom:20px;  
+}
+
+.about{
+	font-family: Helvetica;
+	font-size:25px;
+	width: 100vx;
+	height: 80vh;
+	padding-left: 30px;
+	opacity:0.8;
+	background-color: #FFF7E9;
+}
+
+.about p{
+	padding-top:40px;
+	font-weight:bold;
+}
+
+.about img{
+	width:400px;
+	height:350px;
+	margin-right: 10px;
+}	
+
+.checkTable{
+	background-color: #FFF7E9;
+	height: 87vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:25px;
+}
+
+.checkTable img{
+	height:90px;
+	width:90px;
+}
+
+.checkTable td,th{
+	padding: 10px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
